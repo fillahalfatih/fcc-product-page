@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+ul {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#header {
+    width: 100vw;
+    background-color: #111;
+    padding: 5px 20px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#header .logo {
+    text-align: center;
+}
+
+#nav-bar ul {
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#nav-bar ul li {
+    padding: 5px 25px 0px 25px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+
+section {
+    padding: 0px 20px;
+    max-width: 800px;
+}
+
+#hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url(img/hero_image.jpg);
+    background-position: center;
+}
+
+#hero h2,
+#hero p,
+#hero form {
+    text-align: center;
+    color: #f2f2f2;
+}
+
+#hero form {
+    padding-bottom: 250px;
+}
+
+#video_section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+@media (min-width: 925px;) {
+    ul {
+        padding-left: 0px;
+    }
+}

@@ -5,8 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page - freeCodeCamp Project</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="img/logo.png" alt="">
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#hero">About</a></li>
+                <li><a class="nav-link" href="#video_section">Features</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="hero">
+        <section>
+            <h2>Representing Drone Light</h2>
+            <p>Look up the sky and beautiful world with simple navigation. Just record and get a lot memories to share, lighlty and fast like a lightning</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+                <input id="submit" type="submit" value="Pre-Order" class="btn"/>
+            </form>
+        </section>
+    </div>
+
+    <div id="video_section">
+        <section>
+            <div class="vid-item">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LVoPGlNvHhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="features">
+                <h2>Why Drone Light?</h2>
+                <p>We provide a best self drone easy to use and operate. With auto pilot, the device will take a beautiful view for the best of flying operation.</p>
+                <ul>
+                    <li><strong>4K</strong> Camera Resolution</li>
+                    <li><strong>2TB</strong> Storage Capacity</li>
+                    <li><strong>60 m/s</strong> Super Max-Speed</li>
+                    <li><strong>45 mins</strong> Flight Time</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div id="pricing"></div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
